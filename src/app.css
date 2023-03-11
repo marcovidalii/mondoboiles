@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.responsive-text-8xl {
+    @apply xl:text-8xl lg:text-7xl md:text-6xl sm:text-5xl text-4xl;
+}
+
+.responsive-text-3xl {
+    @apply xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-base;
+}
+
+.responsive-text-xl {
+    @apply xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs;
+}
+
+.responsive-text-base {
+    @apply xl:text-base lg:text-sm text-xs;
+}
